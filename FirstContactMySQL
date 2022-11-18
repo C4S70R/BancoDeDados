@@ -1,0 +1,8 @@
+create database Murillo,
+use database Murillo,
+create table Dados(
+cpf int primary key auto increment,
+nome varchar(40)
+),
+insert into Dados(cpf, nome)
+values (49008911850, "Murillo"),
